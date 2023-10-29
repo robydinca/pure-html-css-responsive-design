@@ -1,0 +1,202 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chekout</title>
+  <meta name="description"
+    content="Descubre la última tecnología en nuestra tienda online de tecnología y electrónica. Ofrecemos smartphones, ordenadores portátiles, televisores, hogar inteligente y accesorios de las marcas líderes del mercado como Apple, Samsung, Sony y LG. Con un servicio al cliente excepcional, entregas rápidas y garantía de devolución del dinero, ¡visítanos ahora para tener la última tecnología al alcance de tus manos!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/checkout.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+
+  <link rel="icon" href="/img/favicon.ico">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header class="header">
+    <div class="ofertas">
+      <a href="./registro.html">15% Al registrarse para nuevos usuarios</a>
+    </div>
+    <div class="navigator">
+      <div class="burger">
+        <div>
+          <a href="./menu.html">
+            <img src="img/menu.svg">
+          </a>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="./index.html"><img src="img/logo.gif"></a>
+        <h1>TechRatio</h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="./servicios.html"><img src="img/compromisos.svg"></a></li>
+          <li><a href="./login.html"><img src="img/user.svg"></li></a>
+          <li><a href="./carrito.html"><img src="img/cart.svg"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="barraBusqueda">
+      <input type="search" id="search" name="search" placeholder="Buscar...">
+      <button type="submit"><img src="img/search.svg"></button>
+    </div>
+  </header>
+
+  <main>
+        <div class="checkout1">
+          <h2>Checkout</h2>
+          <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión</a></p>
+        </div>
+        <div class="checkout1">
+          <h3>Datos de facturación</h3>
+          <form action="">
+            <div class="form1">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="form1">
+              <label for="apellidos">Apellidos</label>
+              <input type="text" name="apellidos" id="apellidos">
+            </div>
+            <div class="form1">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="form1">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" name="telefono" id="telefono">
+            </div>
+            <div class="form1">
+              <label for="direccion">Dirección</label>
+              <input type="text" name="direccion" id="direccion">
+            </div>
+            <div class="form1">
+              <label for="ciudad">Ciudad</label>
+              <input type="text" name="ciudad" id="ciudad">
+            </div>
+            <div class="form1">
+              <label for="provincia">Provincia</label>
+              <input type="text" name="provincia" id="provincia">
+            </div>
+            <div class="form1">
+              <label for="pais">País</label>
+              <input type="text" name="pais" id="pais">
+            </div>
+            <div class="form1">
+              <label for="cp">Código postal</label>
+              <input type="text" name="cp" id="cp">
+            </div>
+          </form>
+          <div class="guardar">
+            <input type="checkbox" name="guardar" id="guardar">
+            <label for="guardar">Guardar estos datos para la próxima compra</label>
+          </div>
+        </div>
+        <div class="detallesPago">
+          <h3>Detalles de pago</h3>
+          <div class="formaDePago">
+            <div class="formaDePago1">
+              <input type="radio" name="pago" id="pago1">
+              <label for="pago1">Tarjeta de crédito/débito</label>
+            </div>
+
+            <div class="formaDePago3">
+              <input type="radio" name="pago" id="pago3">
+              <label for="pago3">Contrareembolso (+1,50€)</label>
+            </div>
+            
+            <div class="formaDePago2">
+              <input type="radio" name="pago" id="pago2">
+              <label for="pago2">PayPal</label>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta">
+          <div class="img"><img src="./img/cc.svg"></div>
+            <form action="">
+            <div>
+              <div class="form1">
+                <label for="nombreTarjeta">Nombre en la tarjeta</label>
+                <input type="text" name="nombreTarjeta" id="nombreTarjeta">
+              </div>
+              <div class="form1">
+                <label for="numeroTarjeta">Número de tarjeta</label>
+                <input type="text" name="numeroTarjeta" id="numeroTarjeta">
+              </div>
+              <div class="form1">
+                <label for="fechaCaducidad">Fecha de caducidad</label>
+                <input type="date" name="fechaCaducidad" id="fechaCaducidad">
+              </div>
+              <div class="form1">
+                <label for="cvv">CVV</label>
+                <input type="text" name="cvv" id="cvv">
+              </div>
+            </form>
+            <div class="pagar">
+              <button type="submit">Pagar</button>
+            </div>
+        </div>
+  </main>
+  
+  <footer>
+    <div class="footer">
+      <div class="footer1">
+        <div class="titulo">
+          <h4>Información</h4>
+          <img src="img/info.svg">
+        </div>
+        <div>
+          <ul>
+            <li><a href="./quienes_somos.html">Quienes somos...</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./aviso_legal.html">Aviso legal</a></li>
+            <li><a href="./politicas.html">Política de privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="titulo2">
+          <h4>Siguenos</h4>
+          <img src="img/rrss.svg">
+        </div>
+        <div class="redes">
+          <ul>
+            <li><a href="https://es-es.facebook.com/"><img src="./img/rrss/fb.svg">Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=es"><img src="./img/rrss/tw.svg" class="fb">Twitter</a></li>
+            <li><a href="https://www.instagram.com/"><img src="./img/rrss/ig.svg" class="ig">Instagram</a></li>
+            <li><a href="https://www.youtube.com/"><img src="./img/rrss/yt.svg">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer3">
+        <div class="titulo3">
+          <h4>Newsletter</h4>
+          <img src="img/news.svg">
+        </div>
+        <p>Recibe las últimas novedades y ofertas</p>
+        <input type="email" name="email" id="email" placeholder="Introduce tu email">
+        <button type="submit">Suscribirse</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

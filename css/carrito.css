@@ -1,0 +1,222 @@
+h2 {
+    color: #2CDA9D;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+table {
+    color:#2CDA9D;
+    border-collapse: collapse;
+    border: 1px solid #3E8989;
+}
+
+table th {
+    background-color: #272329;
+    color: #2CDA9D;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #3E8989;
+    border-right: 1px solid #3E8989;
+}
+
+table td:nth-of-type(2) {
+    background-color: #272329;
+    text-align: center;
+    border-right: 0px;
+}
+table td:nth-of-type(3) {
+    background-color: #272329;
+    text-align: center;
+    border-left: 0px;
+}
+
+table td {
+    text-align: center;
+    border-bottom: 1px solid #3E8989;
+    border-left: 1px solid #3E8989;
+}
+
+table button img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+table button {
+    background-color: #1A181B;
+    color: #2CDA9D;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+table input {
+    text-align: center;
+    border: 1px solid #3E8989;
+    border-radius: 5px;
+    background-color: #272329;
+    color: #2CDA9D;
+}
+
+table ul {
+    padding: 0;
+    margin: 0;
+}
+
+table li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #3E8989;
+    border-radius: 5px;
+    background-color: #1A181B;
+    color: #2CDA9D;
+    margin: 5px;
+}
+
+div a.explorar {
+    color: #2CDA9D;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+div.explorar, div.pagar {
+    display: flex;
+    justify-content: center;
+    border:1px solid #2CDA9D;
+    background-color: #272329;
+}
+
+div.checkout {
+    color: #2CDA9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    background-color: #272329;
+    height: 250px;
+    border-bottom: 1px solid #2CDA9D;
+}
+
+div.checkout div.pagar {
+    position: relative;
+    top: 20px;
+}
+
+
+div.pagar {
+    background-color: #272329;
+    color: #2CDA9D;
+    border: 1px solid #2CDA9D;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+p.total {
+    color: #2CDA9D;
+    font-size: 1.4em;
+    margin: 10px;
+    font-weight: bold;
+    border: 1px solid #2CDA9D;
+    width: 99%;
+    text-align: center;
+}
+
+p.total:hover {
+    background-color: #2CDA9D;
+    color: #272329;
+
+}
+
+.pagar a {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+div.duda {
+    color: #2CDA9D;
+    font-size: 1.6em;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.duda a {
+    color: #2CDA9D;
+    text-decoration: none;
+    border: 1px solid #2CDA9D;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    position:relative;
+    top: 40px;
+}
+
+body {
+    font-family:'Share Tech Mono', monospace;
+    font-size: 0.7em;
+}
+
+@media (min-width:435px) {
+
+    h2 {
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+
+    section.carrito {
+        display: flex;
+        font-size:2.2em;
+    }
+
+    .extracarrito {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .extracarrito div.checkout {
+        height: 100%;
+        font-size: 1em;
+    }
+
+    table {
+        width: 100%;
+    }
+    table img {
+        width: 150px;
+        height: 150px;
+    }
+
+    table button img {
+        width: 40px;
+        height: 40px;
+    }
+
+    table input {
+        width: 50px;
+        height: 50px;
+    }
+
+    div .duda {
+        font-size: 40px;
+    }
+
+}

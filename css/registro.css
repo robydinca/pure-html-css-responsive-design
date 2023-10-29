@@ -1,0 +1,81 @@
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2CDA9D;
+    padding: 10px;
+    text-align: center;
+    background-color: #272329;
+
+}
+
+section.registro {
+    background-color: #272329;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #2CDA9D;
+
+}
+
+div.registro1 a{
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+div.registro1 p {
+    text-align: center;
+    color: #2CDA9D;
+}
+
+section.registro form input {
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #2CDA9D;
+    background-color: #272329;
+    border: 1px solid #2CDA9D;
+}
+
+div.registroInput {
+    display: flex;
+    flex-direction: column;
+}
+
+div.registroInput label {
+    color: #2CDA9D;
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+
+.registroButon {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button {
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #2CDA9D;
+    background-color: #272329;
+    border: 1px solid #2CDA9D;
+}
+
+.button:hover {
+    background-color: #2CDA9D;
+    color: #272329;
+}
+
+
+body {
+    font-family: 'Share Tech Mono',monospace;
+    color: #2CDA9D;
+}

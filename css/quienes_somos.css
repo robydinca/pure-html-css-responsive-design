@@ -1,0 +1,175 @@
+main {
+    width: 100%;
+
+}
+
+h2 {
+    color: #2CDA9D;
+    font-family:'Share Tech Mono', monospace;
+    font-size: 2.4em;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.quienesSomosHeader p {
+    color: #2CDA9D;
+    font-family:'Share Tech Mono', monospace;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0px;
+}
+.quienesSomosHeader {
+    background-image: url(../img/quienes_somos/equipo.jpg);
+    font-size: 1.4em;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quienesSomosHeader a {
+    color: #2CDA9D;
+    font-family:'Share Tech Mono', monospace;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.quienesSomosHeader img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+
+}
+
+h3 {
+    color: #2CDA9D;
+    font-family:'Share Tech Mono', monospace;
+    font-size: 2.4em;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tarjetas h4 {
+    color: black;
+    font-family:'Share Tech Mono', monospace;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+div.tarjetas {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+div.personas {
+    background-image: url(../img/quienes_somos/personas.jpg);
+    height: 500px;
+    border-radius: 15px;
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+div.cultura {
+    background-image: url(../img/quienes_somos/cultura.jpg);
+    height: 500px;
+    border-radius: 15px;
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div.comunidad {
+    background-image: url(../img/quienes_somos/comunidad.jpg);
+    height: 500px;
+    border-radius: 15px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div.tarjetas div div {
+    background-color: #2CDA9D;
+    border-radius: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 7.5%;
+
+}
+
+div.tarjetas div div a {
+    padding: 5px;
+    background-color: #272329;
+    border-radius: 5px;
+    margin-top:10px;
+    Color: #2CDA9D;
+
+}
+
+article {
+    color: #2CDA9D;
+    font-family:'Share Tech Mono', monospace;
+    padding: 20px;
+}
+
+.queEsperar a {
+    padding: 5px;
+    background-color: #272329;
+    border-radius: 5px;
+    Color: #2CDA9D;
+}
+
+.queEsperar div {
+    padding: 20px;
+}
+
+.historia a {
+    padding: 5px;
+    background-color: #272329;
+    border-radius: 5px;
+    Color: #2CDA9D;
+}
+
+.historia h3 {
+    width: 50%;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historia div {
+    padding: 20px;
+}
+
+
+
+
+
+
+body {
+    background-color: #1A181B;
+}

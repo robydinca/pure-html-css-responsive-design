@@ -1,0 +1,62 @@
+h2{
+    font-size: 2em;
+    font-family: 'share tech mono', monospace;
+    color: #2CDA9D;
+    padding: 10px;
+    background-color: #272329;
+    text-align: center;
+    border-top : 1px solid #2CDA9D;
+    border-bottom : 1px solid #2CDA9D;
+    border-radius: 5px;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'share tech mono', monospace;
+    color: #2CDA9D;
+    margin: 0px; 
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.menu ul {
+    padding: 0;
+    width: 100%;
+}
+
+
+section.menu li {
+    font-size: 1.5em;
+    font-family: 'share tech mono', monospace;
+    color: #2CDA9D;
+    list-style: none;
+    padding: 10px;
+    background-color: #272329;
+    margin: 3px;
+    border-radius: 10px;
+    
+}
+
+section.menu a {
+    color: #2CDA9D;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
